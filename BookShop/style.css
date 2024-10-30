@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.container {
+  max-width: 1060px;
+  width: 100%;
+  margin: auto;
+}
+
+.bosh {
+  margin: auto;
+}
+.header {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header__firs-p {
+  font-size: 20px;
+  line-height: 23.44px;
+}
+.header__firs {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+  background-color: inherit;
+}
+.header__second {
+  background-image: url("/imgs/1614723891_106-p-foni-dlya-literaturi-128 1 (1).png");
+  height: 500px;
+  padding-top: 100px;
+  text-align: center;
+}
+.header__second-h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 58.59px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__content-items {
+  display: block;
+  width: 330px;
+  height: 330px;
+  background-color: #c4c4c4;
+}
+.header__content-items {
+  margin: 50px 0;
+}
+.header__content-h3 {
+  display: flex;
+  margin: 30px;
+  width: 254px;
+  height: 26px;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25.78px;
+}
+.header__content-p {
+  margin: 21px 50px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17.58px;
+}
+
+.footer {
+    background-color: #c4c4c4;
+    padding: 80px 170px;
+}
+.inner-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer__items-p {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25.78px;
+  text-align: right;
+  margin: 29px 0;
+}
